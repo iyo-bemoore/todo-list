@@ -15,6 +15,7 @@
         <logback>1.2.5</logback>
         <sping-framework>5.3.9</sping-framework>
         <servlet-api.version>4.0.1</servlet-api.version>
+        <jstl.version>1.2</jstl.version>
     </properties>
 <dependencies>
     <dependency>
@@ -44,6 +45,11 @@
         <artifactId>javax.servlet-api</artifactId>
         <version>${servlet-api.version}</version>
         <scope>provided</scope>
+    </dependency>
+    <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+        <version>1.2</version>
     </dependency>
 </dependencies>
     <build>

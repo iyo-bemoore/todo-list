@@ -32,6 +32,7 @@ public class DemoController {
         log.info("model = {}", model);
         return "welcome"; // returns the name of the view => the string is passed the the viewResolver then the prefix and suffix are appended and the full path of the the view is returned. //
     }
+
     @ModelAttribute("welcomeMessage")
     public String welcomeMessage(){
         log.info("welcome Message Fired");
