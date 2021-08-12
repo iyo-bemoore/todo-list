@@ -13,6 +13,7 @@ public class TodoData {
     // Fields //
     private static int idValue = 1;
     public List<TodoItem> items = new ArrayList<>();
+    
 
     // Constructor //
     public TodoData() {
@@ -21,6 +22,7 @@ public class TodoData {
         addItem(new TodoItem("Third Item", "This is the Third for the Todo", LocalDate.now()));
         addItem(new TodoItem("Forth Item", "This is the Forth detail for the Todo", LocalDate.now()));
         addItem(new TodoItem("Fifth Item", "This is the Fifth detail for the Todo", LocalDate.now()));
+        addItem(new TodoItem("This is another Item","This is all the details of the latest item",LocalDate.now()));
     }
 
     public List<TodoItem> getItems(){
