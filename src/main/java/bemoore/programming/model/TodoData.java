@@ -27,7 +27,7 @@ public class TodoData {
 
     public List<TodoItem> getItems(){
         return Collections.unmodifiableList(items); // this prevents other classes from altering the content of the items array
-                                                    // Only the Todo class is responsible of initiating CRUD operations.
+                                                    // Only the Todo class is responsible of initiating CRUD operations
     }
     public void addItem(@NonNull TodoItem item){
         item.setId(idValue);
